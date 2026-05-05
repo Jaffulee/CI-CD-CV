@@ -1,4 +1,4 @@
-## Visit my website: [https://your-name-example.github.io/](https://jaffulee.github.io/Jaffulee/)
+## Visit my website: [https://jaffulee.github.io/Jaffulee/](https://jaffulee.github.io/Jaffulee/)
 
 # CV CI/CD
 

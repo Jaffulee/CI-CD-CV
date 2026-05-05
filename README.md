@@ -1,10 +1,12 @@
-## Visit my website: https://your-name-example.github.io/
+## Visit my website: [https://your-name-example.github.io/](https://jaffulee.github.io/Jaffulee/)
 
 # CV CI/CD
 
 This repository generates CV documents from structured YAML. It separates reusable content, document assembly, and rendering so several CV variants can be produced from the same source data without manually copying text between documents.
 
 Generated files are outputs only. Edit YAML, templates, or renderer code, then regenerate the documents.
+
+<img width="1446" height="929" alt="image" src="https://github.com/user-attachments/assets/4b6055ec-06c7-40f0-b609-7ca839c12548" />
 
 ## Quick Start
 

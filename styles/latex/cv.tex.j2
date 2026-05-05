@@ -1,0 +1,70 @@
+{{ latex_preamble }}
+
+{{ latex_macros }}
+
+\begin{document}
+
+{% if title %}\cvDocumentTitle{ {{- title -}} }{% endif %}
+\cvName{ {{- person.display_name | default(person.full_name, true) -}} }
+{% if headline %}\cvHeadline{ {{- headline -}} }{% endif %}
+
+{% if contact %}
+\vspace{0.25em}
+\begin{cvContactRow}
+{% for label, value in contact -%}
+{% if loop.first -%}
+\cvContactCellLeft{ {{- label -}} }{ {{- value -}} }
+{% elif loop.last -%}
+&
+{% if label == "Email" -%}
+\cvContactEmailCellRight{ {{- label -}} }{ {{- value -}} }
+{% else -%}
+\cvContactCellRight{ {{- label -}} }{ {{- value -}} }
+{% endif -%}
+{% else -%}
+&
+{% if label == "Email" -%}
+\cvContactEmailCellCenter{ {{- label -}} }{ {{- value -}} }
+{% else -%}
+\cvContactCellCenter{ {{- label -}} }{ {{- value -}} }
+{% endif -%}
+{% endif -%}
+{% endfor -%}
+\end{cvContactRow}
+{% endif %}
+
+{% for section in sections %}
+\cvSection{ {{- section.name -}} }
+
+{% for entry in section.entries %}
+{% if entry.url %}
+\cvLink{ {{- entry.title -}} }{ {{- entry.url -}} }{ {{- entry.link_text -}} }{ {{- entry.description | default("", true) -}} }
+{% else %}
+{% if not entry.hide_heading %}
+\cvEntryHeading{ {{- entry.title -}} }{ {{- entry.organisation | default("", true) -}} }{ {{- entry.display_dates | default("", true) | latex_date_range -}} }
+
+{% endif %}
+{% if entry.text %}
+{{ entry.text }}
+\par
+{% endif %}
+{% if entry.tools %}
+\cvTools{ {{- entry.tools -}} }
+{% endif %}
+{% if entry.bullets %}
+\begin{cvBullets}
+{% for bullet in entry.bullets -%}
+  \item {{ bullet }}
+{% endfor %}
+\end{cvBullets}
+{% endif %}
+
+{% endif %}
+{% endfor %}
+
+{%- if loop.first and prompt_injection and prompt_injection_text -%}
+{\parskip=0pt \noindent \fontsize{0.1}{0}\selectfont \makebox[0pt][l]{\texttransparent{0}{ {{prompt_injection_text}}}} \par }
+{% endif %}
+
+{% endfor %}
+\end{document}

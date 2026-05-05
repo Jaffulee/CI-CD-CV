@@ -1,0 +1,34 @@
+research:
+  - id: commercial-to-engineering-transition-note-2024
+    type: writing
+    title: From Sales Discovery to Software Requirements
+    organisation: Personal Notes
+    start: 2024-10
+    end: 2024-10
+    display_dates: "October 2024"
+    tools:
+      - Markdown
+    domains:
+      - software-engineering
+      - product
+      - sales
+    themes:
+      - requirements
+      - discovery
+      - communication
+    profiles:
+      - software-engineering
+      - management
+      - full
+    variants:
+      one_line: >
+        Wrote a practical note on translating sales discovery habits into clearer software requirements.
+      short: |
+        Wrote a practical note on translating sales discovery habits into clearer software requirements.
+      full: |
+        Wrote a practical note on translating sales discovery habits into clearer software requirements, including stakeholder context, acceptance criteria, risk notes, and examples of ambiguous customer requests turned into actionable engineering tasks.
+    bullets:
+      short:
+        - text: Wrote about translating sales discovery into requirements, acceptance criteria, and risk notes
+          priority: 10
+

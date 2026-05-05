@@ -1,0 +1,7 @@
+I am a sales professional who transitioned into software engineering mid career. My background is in B2B account management, consultative selling, renewals, stakeholder management, and customer discovery, and I now apply that commercial context to building practical software.
+
+As a software engineer, I work with TypeScript, React, Node.js, PostgreSQL, Python, Docker, and GitHub Actions. I enjoy building tools that improve sales operations, customer onboarding, account workflows, and internal reporting. My sales experience helps me ask clearer questions, understand user context, and turn ambiguous requests into scoped engineering work.
+
+I have built portfolio projects including a sales forecasting application and CRM task automation service, using familiar commercial problems as material for full-stack development, API design, testing, and deployment practice.
+
+I am especially interested in roles where software engineering, product thinking, and customer understanding meet.

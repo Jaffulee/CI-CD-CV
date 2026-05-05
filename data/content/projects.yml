@@ -1,0 +1,125 @@
+projects:
+  - id: sales-forecasting-app
+    type: project
+    title: Sales Forecasting Application
+    organisation: Personal Portfolio
+    start: 2024-05
+    end: 2024-07
+    display_dates: "May 2024 - July 2024"
+    tools:
+      - React
+      - Node.js
+      - PostgreSQL
+      - Chart.js
+    domains:
+      - software-engineering
+      - sales
+    themes:
+      - forecasting
+      - dashboards
+      - commercial-workflows
+    profiles:
+      - software-engineering
+      - sales
+      - full
+    variants:
+      one_line: >
+        Built a portfolio application for sales forecasting, opportunity weighting, and pipeline review.
+      short: |
+        Built a portfolio application for sales forecasting, opportunity weighting, and pipeline review.
+      full: |
+        Built a portfolio application for sales forecasting, opportunity weighting, pipeline review, and scenario comparison. The project joined commercial domain knowledge with database design, API development, React UI work, and chart-based reporting.
+      sales: |
+        Built a sales forecasting tool reflecting practical pipeline review, opportunity weighting, and scenario planning workflows.
+      software_engineering: |
+        Built a React, Node.js, and PostgreSQL application with authenticated workflows, API validation, and chart-based reporting.
+      management: |
+        Designed the tool around management review needs including forecast confidence, risk notes, and team-level pipeline visibility.
+    bullets:
+      full:
+        - text: Built forecasting, opportunity weighting, and pipeline review workflows
+          priority: 10
+        - text: Implemented database models, API validation, React views, and chart-based reporting
+          priority: 9
+
+  - id: crm-task-automation
+    type: project
+    title: CRM Task Automation
+    organisation: Personal Portfolio
+    start: 2024-08
+    end: 2024-09
+    display_dates: "August 2024 - September 2024"
+    tools:
+      - Python
+      - FastAPI
+      - PostgreSQL
+      - Docker
+    domains:
+      - software-engineering
+      - automation
+    themes:
+      - crm
+      - process-automation
+      - api-design
+    profiles:
+      - software-engineering
+      - sales
+      - management
+    variants:
+      one_line: >
+        Built an API service that generates CRM follow-up tasks from account notes and sales stages.
+      short: |
+        Built an API service that generates CRM follow-up tasks from account notes and sales stages.
+      full: |
+        Built an API service that generates CRM follow-up tasks from account notes, deal stages, renewal dates, and risk flags. The project focused on practical automation, clear error handling, database-backed state, and Dockerised local development.
+      sales: |
+        Automated common CRM follow-up tasks around account notes, deal stages, renewal dates, and risk flags.
+      software_engineering: |
+        Built a FastAPI service with PostgreSQL persistence, validation, error handling, and Dockerised development.
+      management: |
+        Modelled team follow-up rules to improve consistency, visibility, and accountability across account ownership.
+    bullets:
+      full:
+        - text: Built CRM follow-up automation around notes, deal stages, renewal dates, and risk flags
+          priority: 10
+        - text: Implemented a Python API with validation, persistence, error handling, and Docker support
+          priority: 9
+
+  - id: github-additional-projects
+    type: project
+    title: Additional Portfolio Projects
+    organisation: Personal Portfolio
+    start: 2024-01
+    end: Present
+    display_dates: "2024 - Present"
+    tools:
+      - JavaScript
+      - Python
+      - SQL
+      - GitHub Actions
+    domains:
+      - software-engineering
+      - automation
+    themes:
+      - portfolio
+      - learning
+      - practical-delivery
+    profiles:
+      - software-engineering
+      - full
+    variants:
+      one_line: >
+        Maintains additional example projects covering APIs, frontend interfaces, testing, and automation.
+      short: |
+        Maintains additional example projects covering APIs, frontend interfaces, testing, and automation.
+      full: |
+        Maintains additional example projects covering APIs, frontend interfaces, testing, automation scripts, CI configuration, and technical notes from the career transition into software engineering.
+      software_engineering: |
+        Maintains example projects covering APIs, frontend interfaces, automated tests, CI configuration, and deployment notes.
+    bullets:
+      full:
+        - text: Maintains additional projects covering APIs, frontend interfaces, testing, and automation
+          priority: 10
+        - text: Documents setup, design decisions, and lessons from the career transition
+          priority: 9
+

@@ -1,0 +1,35 @@
+talks:
+  - id: career-change-lightning-talk-2025
+    type: talk
+    title: Customer Conversations as an Engineering Skill
+    organisation: Example Tech Meetup
+    start: 2025-06
+    end: 2025-06
+    display_dates: "June 2025"
+    tools:
+      - Slides
+      - Demo App
+    domains:
+      - software-engineering
+      - career-transition
+    themes:
+      - communication
+      - product-thinking
+      - customer-empathy
+    profiles:
+      - software-engineering
+      - management
+      - full
+    variants:
+      one_line: >
+        Delivered a lightning talk on how sales discovery skills can improve software requirements and product decisions.
+      short: |
+        Delivered a lightning talk on how sales discovery skills can improve software requirements and product decisions.
+      full: |
+        Delivered a lightning talk on how sales discovery skills can improve software requirements, product decisions, and customer-facing engineering work. Used a small demo app to show how ambiguous customer feedback can become testable acceptance criteria.
+    bullets:
+      short:
+        - text: Delivered a talk on using sales discovery skills to improve software requirements
+          priority: 10
+        - text: Demonstrated how ambiguous customer feedback can become testable acceptance criteria
+          priority: 9

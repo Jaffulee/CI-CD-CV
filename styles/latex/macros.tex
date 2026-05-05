@@ -1,0 +1,88 @@
+\newcommand{\cvDocumentTitle}[1]{%
+  {\large\bfseries\color{cvAccent} #1}\par
+  \vspace{0.35em}
+}
+
+\newcommand{\cvName}[1]{%
+  {\LARGE\bfseries #1}\par
+}
+
+\newcommand{\cvHeadline}[1]{%
+  {\color{cvMuted}#1}\par
+}
+
+\newcommand{\cvContactLine}[2]{%
+  {\small\textbf{#1}: #2}\par
+}
+
+\newcommand{\cvContactEmail}[2]{%
+  {\small\textbf{#1}: \nolinkurl{#2}}\par
+}
+
+\newcommand{\cvContactInline}[2]{%
+  \textbf{#1}: #2%
+}
+
+\newenvironment{cvContactRow}{%
+  \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}c r@{}}
+}{%
+  \end{tabular*}\par
+}
+
+\newcommand{\cvContactCellLeft}[2]{%
+  {\small\raggedright\textbf{#1}: #2}%
+}
+
+\newcommand{\cvContactCellCenter}[2]{%
+  {\small\centering\textbf{#1}: #2}%
+}
+
+\newcommand{\cvContactCellRight}[2]{%
+  {\small\raggedleft\textbf{#1}: #2}%
+}
+
+\newcommand{\cvContactEmailCellCenter}[2]{%
+  {\small\centering\textbf{#1}: \nolinkurl{#2}}%
+}
+
+\newcommand{\cvContactEmailCellRight}[2]{%
+  {\small\raggedleft\textbf{#1}: \nolinkurl{#2}}%
+}
+
+\newcommand{\cvPromptInjectionDemo}[1]{%
+  \vspace{0.35em}
+  {\small\textbf{Prompt injection demonstration payload (visible):}\par}
+  {\scriptsize\color{cvMuted}#1\par}
+  \vspace{0.15em}
+}
+
+\newcommand{\cvSection}[1]{%
+  \section{#1}
+}
+
+\newcommand{\cvEntryHeading}[3]{%
+  \textbf{#1}%
+  \if\relax\detokenize{#2}\relax\else, \textit{#2}\fi%
+  \if\relax\detokenize{#3}\relax\else\hfill{\small\color{cvMuted}#3}\fi%
+  \par
+}
+
+\newcommand{\cvEntryText}[1]{%
+  #1\par
+}
+
+\newcommand{\cvTools}[1]{%
+  {\small\color{cvMuted}\textbf{Tools used:} #1}\par
+}
+
+\newcommand{\cvLink}[4]{%
+  \textcolor{cvAccent}{\textbf{#1}}: \href{#2}{#3}%
+  \par
+  \if\relax\detokenize{#4}\relax\else{\small\color{cvMuted}#4}\par\fi%
+}
+
+\newenvironment{cvBullets}{%
+  \begin{itemize}
+}{%
+  \end{itemize}
+}

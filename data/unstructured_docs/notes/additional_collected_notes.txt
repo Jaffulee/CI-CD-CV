@@ -1,0 +1,16 @@
+Example notes for the anonymised CV dataset.
+
+Career narrative:
+Mr Your Name began in frontline sales, moved into team leadership and B2B account management, then transitioned into software engineering mid career. The transition was motivated by repeated exposure to CRM workflows, reporting problems, and customer pain points that could be solved with better internal tools.
+
+Transferable strengths:
+- Consultative discovery maps well to requirements gathering.
+- Account management builds stakeholder awareness and risk communication.
+- Sales forecasting gives strong intuition for operational data and reporting.
+- Team leadership supports mentoring, prioritisation, and delivery coordination.
+
+Software focus:
+- Full-stack web applications.
+- CRM and sales workflow automation.
+- Customer-facing product features.
+- Clear documentation, tests, and release communication.

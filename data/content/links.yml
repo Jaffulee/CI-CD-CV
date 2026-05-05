@@ -1,0 +1,43 @@
+links:
+  - id: github
+    label: GitHub
+    url: https://github.com/your-name-example
+    description: Example GitHub profile containing software engineering, automation, and learning projects.
+    domains:
+      - software-engineering
+      - automation
+    profiles:
+      - software-engineering
+
+  - id: website-portfolio
+    label: Website Portfolio
+    url: https://your-name-example.github.io/
+    description: Example portfolio highlighting selected projects, career transition notes, and technical writing.
+    domains:
+      - portfolio
+      - software-engineering
+    profiles:
+      - software-engineering
+      - management
+
+  - id: linkedin
+    label: LinkedIn
+    url: https://www.linkedin.com/in/your-name-example/
+    description: Example LinkedIn profile.
+    domains:
+      - professional-profile
+    profiles:
+      - sales
+      - software-engineering
+      - management
+
+  - id: technical-blog
+    label: Technical Blog
+    url: https://your-name-example.github.io/blog/
+    description: Example writing on software engineering, customer-led product thinking, and career transition.
+    domains:
+      - writing
+      - software-engineering
+    profiles:
+      - software-engineering
+      - management

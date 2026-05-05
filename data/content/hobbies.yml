@@ -1,0 +1,10 @@
+hobbies:
+  - id: personal-hobbies
+    type: hobbies
+    title: Personal Interests
+    variants:
+      short: |
+        Enjoys hiking, community volunteering, reading product and engineering books, and mentoring career changers.
+
+      full: |
+        Enjoys hiking, community volunteering, reading product and engineering books, and mentoring career changers who are moving from commercial roles into technology.

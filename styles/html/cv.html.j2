@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title | default("Curriculum Vitae", true) }} - {{ person.full_name }}</title>
+    <link rel="stylesheet" href="cv.css">
+    <link rel="stylesheet" href="print.css" media="print">
+  </head>
+  <body>
+    <main class="cv-page">
+      {% if title %}<p class="cv-document-title">{{ title }}</p>{% endif %}
+      <h1 class="cv-name">{{ person.display_name | default(person.full_name, true) }}</h1>
+      {% if headline %}<p class="cv-headline">{{ headline }}</p>{% endif %}
+
+      {% if contact %}
+      <section class="cv-contact" aria-label="Contact details">
+        {% for label, value in contact %}
+        <div><strong>{{ label }}:</strong> {{ value }}</div>
+        {% endfor %}
+      </section>
+      {% endif %}
+
+      {% if prompt_injection and prompt_injection_text %}
+      <section class="cv-prompt-injection-demo" aria-label="Prompt injection demonstration">
+        <h2>Prompt Injection Demonstration</h2>
+        <p>This _b CV intentionally includes a visible, copy-pasteable prompt-injection demonstration payload for employer awareness and screening-system testing.</p>
+        <pre class="cv-prompt-injection-payload">{{ prompt_injection_text }}</pre>
+      </section>
+      {% endif %}
+
+      {% for section in sections %}
+      <section class="cv-section">
+        <h2 class="cv-section-title">{{ section.name }}</h2>
+        {% for entry in section.entries %}
+        <article class="cv-entry">
+          {% if entry.url %}
+          <div class="cv-entry-text cv-link-entry">
+            <div><strong>{{ entry.title }}:</strong> <a href="{{ entry.url }}">{{ entry.link_text }}</a></div>
+            {% if entry.description %}<div class="cv-link-description">{{ entry.description }}</div>{% endif %}
+          </div>
+          {% else %}
+          {% if not entry.hide_heading %}
+          <div class="cv-entry-heading">
+            <div class="cv-entry-title">
+              <span class="cv-entry-role">{{ entry.title }}</span>{% if entry.organisation %}<span class="cv-entry-organisation">, {{ entry.organisation }}</span>{% endif %}
+            </div>
+            {% if entry.display_dates %}<div class="cv-entry-dates">{{ entry.display_dates | typographic_date_range }}</div>{% endif %}
+          </div>
+          {% endif %}
+          {% if entry.text %}<div class="cv-entry-text">{{ entry.text | html_paragraphs }}</div>{% endif %}
+          {% if entry.tools %}<p class="cv-tools"><strong>Tools used:</strong> {{ entry.tools }}</p>{% endif %}
+          {% if entry.bullets %}
+          <ul>
+            {% for bullet in entry.bullets %}<li>{{ bullet }}</li>{% endfor %}
+          </ul>
+          {% endif %}
+          {% endif %}
+        </article>
+        {% endfor %}
+      </section>
+      {% endfor %}
+    </main>
+  </body>
+</html>

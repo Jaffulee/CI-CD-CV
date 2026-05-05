@@ -1,0 +1,5 @@
+Your Name is a sales professional turned software engineer with experience across account management, consultative selling, customer discovery, stakeholder coordination, and full-stack software delivery.
+
+His career transition was built around practical software projects that reflect real commercial workflows, including sales forecasting, CRM task automation, onboarding support, and account-management tools. He brings strong communication habits from sales into engineering, helping teams clarify requirements, identify adoption risks, and explain technical trade-offs in business language.
+
+He is comfortable working across TypeScript, React, Node.js, Python, PostgreSQL, Docker, AWS fundamentals, and GitHub Actions, with an interest in customer-facing product engineering and commercially grounded software teams.

@@ -1,0 +1,133 @@
+certifications:
+  - id: professional-scrum-master-2025
+    type: certification
+    title: Professional Scrum Master I
+    organisation: Scrum.org
+    start: 2025-04
+    end: 2025-04
+    display_dates: "April 2025"
+    tools: []
+    domains:
+      - agile-delivery
+      - management
+    themes:
+      - agile
+      - delivery
+      - team-leadership
+    profiles:
+      - software-engineering
+      - management
+    variants:
+      one_line: >
+        Certified in Scrum principles, empirical process control, and agile team accountability.
+      short: |
+        Certified in Scrum principles, empirical process control, and agile team accountability.
+      full: |
+        Certified in Scrum principles, empirical process control, facilitation, and agile team accountability, supporting practical delivery across software and commercial teams.
+    bullets:
+      short:
+        - text: Certified in Scrum principles and agile team accountability
+          priority: 10
+        - text: Applies facilitation and delivery practices to cross-functional software teams
+          priority: 9
+
+  - id: aws-cloud-practitioner-2024
+    type: certification
+    title: AWS Certified Cloud Practitioner
+    organisation: Amazon Web Services
+    start: 2024-11
+    end: 2024-11
+    display_dates: "November 2024"
+    tools:
+      - AWS
+    domains:
+      - cloud
+      - software-engineering
+    themes:
+      - cloud-fundamentals
+      - security
+      - cost-awareness
+    profiles:
+      - software-engineering
+    variants:
+      one_line: >
+        Certified in AWS cloud fundamentals, shared responsibility, core services, and pricing concepts.
+      short: |
+        Certified in AWS cloud fundamentals, shared responsibility, core services, and pricing concepts.
+      full: |
+        Certified in AWS cloud fundamentals, shared responsibility, core services, security basics, architecture principles, and pricing concepts.
+    bullets:
+      short:
+        - text: Certified in AWS cloud fundamentals and core services
+          priority: 10
+        - text: Covers shared responsibility, security basics, architecture principles, and pricing concepts
+          priority: 9
+
+  - id: full-stack-web-development-2024
+    type: certification
+    title: Full-Stack Web Development Certificate
+    organisation: Example Online Academy
+    start: 2024-07
+    end: 2024-07
+    display_dates: "July 2024"
+    tools:
+      - JavaScript
+      - React
+      - Node.js
+      - PostgreSQL
+    domains:
+      - web-development
+      - software-engineering
+    themes:
+      - full-stack-development
+      - testing
+      - api-design
+    profiles:
+      - software-engineering
+    variants:
+      one_line: >
+        Completed a practical full-stack programme covering React, Node.js, APIs, databases, and testing.
+      short: |
+        Completed a practical full-stack programme covering React, Node.js, APIs, databases, and testing.
+      full: |
+        Completed a practical full-stack programme covering React, Node.js, REST APIs, PostgreSQL, authentication, deployment, and automated testing.
+    bullets:
+      short:
+        - text: Completed practical projects across React, Node.js, APIs, PostgreSQL, and testing
+          priority: 10
+        - text: Built deployable applications with authentication and database-backed workflows
+          priority: 9
+
+  - id: consultative-selling-2021
+    type: certification
+    title: Consultative Selling Programme
+    organisation: Example Sales Institute
+    start: 2021-03
+    end: 2021-03
+    display_dates: "March 2021"
+    tools:
+      - CRM
+      - Discovery Frameworks
+    domains:
+      - sales
+      - account-management
+    themes:
+      - discovery
+      - negotiation
+      - customer-outcomes
+    profiles:
+      - sales
+      - management
+    variants:
+      one_line: >
+        Completed training in consultative discovery, qualification, negotiation, and value-led proposals.
+      short: |
+        Completed training in consultative discovery, qualification, negotiation, and value-led proposals.
+      full: |
+        Completed training in consultative discovery, qualification, negotiation, value-led proposals, stakeholder mapping, and account planning.
+    bullets:
+      short:
+        - text: Completed training in consultative discovery, qualification, and negotiation
+          priority: 10
+        - text: Applied stakeholder mapping and value-led proposal techniques in B2B sales
+          priority: 9

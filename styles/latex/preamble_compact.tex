@@ -1,0 +1,40 @@
+\documentclass[9pt,a4paper]{article}
+
+\IfFileExists{glyphtounicode.tex}{%
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+}{}
+\usepackage{cmap}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=0.55in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{xurl}
+\usepackage{microtype}
+\usepackage{transparent}
+\DisableLigatures[f]{encoding = *, family = *}
+
+\definecolor{cvAccent}{HTML}{1F6F78}
+\definecolor{cvRule}{HTML}{9FB7BC}
+\definecolor{cvMuted}{HTML}{555555}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.22em}
+\setlength{\tabcolsep}{0pt}
+\setlist[itemize]{leftmargin=*, noitemsep, topsep=1pt, parsep=0pt}
+\hypersetup{breaklinks=true}
+\urlstyle{same}
+
+\titleformat{\section}
+  {\normalsize\bfseries\color{cvAccent}}
+  {}
+  {0pt}
+  {}
+  [\vspace{-0.3em}{\color{cvRule}\titlerule}]
+\titlespacing*{\section}{0pt}{0.72em}{0.25em}

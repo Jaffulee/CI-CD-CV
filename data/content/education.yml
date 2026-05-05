@@ -1,0 +1,100 @@
+education:
+  - id: software-engineering-diploma-2024
+    type: education
+    title: Diploma in Software Engineering
+    organisation: Example Technical College
+    start: 2024-01
+    end: 2024-12
+    display_dates: "2024"
+    tools:
+      - JavaScript
+      - React
+      - Node.js
+      - PostgreSQL
+      - Testing
+    domains:
+      - software-engineering
+    themes:
+      - full-stack-development
+      - practical-projects
+    profiles:
+      - software-engineering
+      - full
+    variants:
+      one_line: >
+        Practical software engineering diploma covering full-stack web development, databases, testing, and deployment.
+      short: |
+        Practical software engineering diploma covering full-stack web development, databases, testing, and deployment.
+      full: |
+        Practical software engineering diploma covering full-stack web development, databases, testing, deployment, accessibility, and project delivery.
+    bullets:
+      short:
+        - text: Covered full-stack web development, databases, testing, deployment, and accessibility
+          priority: 10
+
+  - id: business-management-degree-2015
+    type: education
+    title: BA Business Management
+    organisation: Example Metropolitan University
+    start: 2012-09
+    end: 2015-06
+    display_dates: "2012 - 2015"
+    tools:
+      - Excel
+      - Presentations
+      - Research
+    domains:
+      - business
+      - management
+    themes:
+      - commercial-analysis
+      - organisational-behaviour
+      - marketing
+    profiles:
+      - sales
+      - management
+      - full
+    variants:
+      one_line: >
+        Studied business management with emphasis on commercial analysis, marketing, operations, and organisational behaviour.
+      short: |
+        Studied business management with emphasis on commercial analysis, marketing, operations, and organisational behaviour.
+      full: |
+        Studied business management with emphasis on commercial analysis, marketing, operations, organisational behaviour, finance, and written communication.
+    bullets:
+      short:
+        - text: Studied commercial analysis, marketing, operations, finance, and organisational behaviour
+          priority: 10
+
+  - id: leadership-development-2022
+    type: education
+    title: Internal Leadership Development Programme
+    organisation: Example Technology Services Ltd
+    start: 2022-09
+    end: 2022-12
+    display_dates: "September 2022 - December 2022"
+    tools:
+      - Coaching Frameworks
+      - Performance Reviews
+    domains:
+      - management
+      - sales
+    themes:
+      - coaching
+      - performance-management
+      - stakeholder-communication
+    profiles:
+      - management
+      - sales
+    variants:
+      one_line: >
+        Completed internal leadership training covering coaching, performance conversations, prioritisation, and stakeholder communication.
+      short: |
+        Completed internal leadership training covering coaching, performance conversations, prioritisation, and stakeholder communication.
+      full: |
+        Completed internal leadership training covering coaching, performance conversations, prioritisation, stakeholder communication, escalation handling, and practical team management.
+    bullets:
+      short:
+        - text: Covered coaching, performance conversations, prioritisation, and stakeholder communication
+          priority: 10
+

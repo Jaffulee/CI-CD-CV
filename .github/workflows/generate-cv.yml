@@ -1,0 +1,69 @@
+name: Generate CV Artifacts
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      include_pdfs:
+        description: "Install LaTeX and compile PDF outputs"
+        required: true
+        default: false
+        type: boolean
+
+jobs:
+  generate:
+    name: Validate and generate CVs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install LaTeX dependencies
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.include_pdfs }}
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            latexmk \
+            texlive-latex-base \
+            texlive-latex-recommended \
+            texlive-latex-extra \
+            lmodern
+
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m unittest discover -s tests
+
+      - name: Compile-check Python files
+        run: python -m compileall src tests
+
+      - name: Generate CV outputs without PDFs
+        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.include_pdfs }}
+        run: python -m src.main --no-pdf
+
+      - name: Generate CV outputs with PDFs
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.include_pdfs }}
+        run: python -m src.main
+
+      - name: Upload generated CV artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: generated-cvs
+          path: |
+            output/markdown/**
+            output/html/**
+            output/docx/**
+            output/latex/**/*.tex
+            output/latex/**/*.pdf
+          if-no-files-found: error
+          retention-days: 14

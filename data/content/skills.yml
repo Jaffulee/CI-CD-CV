@@ -1,0 +1,235 @@
+skills:
+  - id: javascript
+    label: JavaScript
+    category: programming
+    priority: 100
+    profiles:
+      - software-engineering
+
+  - id: typescript
+    label: TypeScript
+    category: programming
+    priority: 99
+    profiles:
+      - software-engineering
+
+  - id: python
+    label: Python
+    category: programming
+    priority: 98
+    profiles:
+      - software-engineering
+
+  - id: react
+    label: React
+    category: frontend
+    priority: 97
+    profiles:
+      - software-engineering
+
+  - id: node
+    label: Node.js
+    category: backend
+    priority: 96
+    profiles:
+      - software-engineering
+
+  - id: rest-apis
+    label: REST APIs
+    category: backend
+    priority: 95
+    profiles:
+      - software-engineering
+
+  - id: postgresql
+    label: PostgreSQL
+    category: database
+    priority: 94
+    profiles:
+      - software-engineering
+
+  - id: testing
+    label: Automated testing
+    category: quality
+    priority: 93
+    profiles:
+      - software-engineering
+
+  - id: git
+    label: Git
+    category: development-workflow
+    priority: 92
+    profiles:
+      - software-engineering
+
+  - id: github-actions
+    label: GitHub Actions
+    category: devops
+    priority: 91
+    profiles:
+      - software-engineering
+
+  - id: docker
+    label: Docker
+    category: devops
+    priority: 90
+    profiles:
+      - software-engineering
+
+  - id: aws
+    label: AWS
+    category: cloud
+    priority: 89
+    profiles:
+      - software-engineering
+
+  - id: crm
+    label: CRM management
+    category: sales
+    priority: 88
+    profiles:
+      - sales
+      - management
+
+  - id: salesforce
+    label: Salesforce
+    category: sales
+    priority: 87
+    profiles:
+      - sales
+      - management
+
+  - id: pipeline-management
+    label: Pipeline management
+    category: sales
+    priority: 86
+    profiles:
+      - sales
+      - management
+
+  - id: consultative-selling
+    label: Consultative selling
+    category: sales
+    priority: 85
+    profiles:
+      - sales
+
+  - id: account-management
+    label: Account management
+    category: sales
+    priority: 84
+    profiles:
+      - sales
+      - management
+
+  - id: negotiation
+    label: Negotiation
+    category: sales
+    priority: 83
+    profiles:
+      - sales
+      - management
+
+  - id: discovery
+    label: Discovery workshops
+    category: sales
+    priority: 82
+    profiles:
+      - sales
+      - management
+
+  - id: customer-success
+    label: Customer success
+    category: commercial
+    priority: 81
+    profiles:
+      - sales
+      - management
+
+  - id: stakeholder-management
+    label: Stakeholder management
+    category: management
+    priority: 80
+    profiles:
+      - sales
+      - management
+      - software-engineering
+
+  - id: product-thinking
+    label: Product thinking
+    category: product
+    priority: 79
+    profiles:
+      - management
+      - software-engineering
+
+  - id: agile-delivery
+    label: Agile delivery
+    category: delivery
+    priority: 78
+    profiles:
+      - management
+      - software-engineering
+
+  - id: team-leadership
+    label: Team leadership
+    category: management
+    priority: 77
+    profiles:
+      - management
+
+  - id: coaching
+    label: Coaching and mentoring
+    category: management
+    priority: 76
+    profiles:
+      - management
+
+  - id: reporting
+    label: Forecasting and reporting
+    category: management
+    priority: 75
+    profiles:
+      - sales
+      - management
+
+skill_groups:
+  software_engineering_core:
+    label: Software Engineering
+    skill_ids:
+      - javascript
+      - typescript
+      - python
+      - react
+      - node
+      - rest-apis
+      - postgresql
+      - testing
+      - git
+      - github-actions
+      - docker
+      - aws
+
+  sales_commercial:
+    label: Sales and Commercial
+    skill_ids:
+      - crm
+      - salesforce
+      - pipeline-management
+      - consultative-selling
+      - account-management
+      - negotiation
+      - discovery
+      - customer-success
+      - reporting
+
+  management_delivery:
+    label: Management and Delivery
+    skill_ids:
+      - stakeholder-management
+      - product-thinking
+      - agile-delivery
+      - team-leadership
+      - coaching
+      - customer-success
+      - reporting

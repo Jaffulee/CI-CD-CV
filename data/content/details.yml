@@ -1,0 +1,42 @@
+person:
+  title: Mr
+  full_name: Your Name
+  display_name: Mr Your Name
+
+address:
+  line_1: 10 Example Street
+  city: London
+  county: Greater London
+  postcode: EC1A 1AA
+  country: UK
+
+contact_variants:
+  short:
+    location: UK
+    mobile: "07123 456789"
+    email: your.name@example.com
+
+  full:
+    location: London, UK
+    mobile: "07123 456789"
+    email: your.name@example.com
+
+  complete:
+    address:
+      - 10 Example Street
+      - London
+      - Greater London
+      - EC1A 1AA
+      - UK
+    mobile: "07123 456789"
+    email: your.name@example.com
+    linkedin: https://www.linkedin.com/in/your-name-example/
+    github: https://github.com/your-name-example
+    website: https://your-name-example.github.io/
+
+headline_variants:
+  short: Sales professional turned software engineer
+  full: Sales professional turned software engineer | Commercial judgement, customer empathy, and pragmatic delivery
+  sales: Commercial sales professional with technical product and CRM automation experience
+  software_engineering: Software engineer with a sales background and strong product instincts
+  manager: Cross-functional manager bridging commercial teams, customers, and software delivery

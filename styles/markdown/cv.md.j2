@@ -1,0 +1,57 @@
+{% if title %}# {{ title }}
+
+{% endif %}
+## {{ person.display_name | default(person.full_name, true) }}
+
+{{ headline }}
+
+{% if contact %}
+{% for label, value in contact -%}
+**{{ label }}:** {{ value }}
+{% endfor %}
+{% endif %}
+
+{% if prompt_injection and prompt_injection_text %}
+## Prompt Injection Demonstration
+
+This `_b` CV intentionally includes a visible, copy-pasteable prompt-injection demonstration payload for employer awareness and screening-system testing.
+
+<small>
+
+{{ prompt_injection_text }}
+
+</small>
+
+{% endif %}
+
+{% for section in sections %}
+## {{ section.name }}
+
+{% for entry in section.entries %}
+{% if entry.url %}
+**{{ entry.title }}:** {{ entry.link_text }}
+{% if entry.description %}{{ entry.description }}{% endif %}
+
+{% else %}
+{% if not entry.hide_heading %}
+**{{ entry.title }}**{% if entry.organisation %}, *{{ entry.organisation }}*{% endif %}{% if entry.display_dates %}  
+{{ entry.display_dates | typographic_date_range }}{% endif %}
+
+{% endif %}
+{% if entry.text %}
+{{ entry.text }}
+
+{% endif %}
+{% if entry.tools %}
+**Tools used:** {{ entry.tools }}
+
+{% endif %}
+{% if entry.bullets %}
+{% for bullet in entry.bullets -%}
+- {{ bullet }}
+{% endfor %}
+{% endif %}
+
+{% endif %}
+{% endfor %}
+{% endfor %}

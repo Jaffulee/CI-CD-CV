@@ -1,0 +1,34 @@
+@page {
+  margin: 0.7in;
+  size: A4;
+}
+
+@media print {
+  html {
+    font-size: 10pt;
+  }
+
+  body {
+    background: #ffffff;
+  }
+
+  .cv-page {
+    max-width: none;
+    padding: 0;
+  }
+
+  .cv-section {
+    break-inside: avoid;
+    margin-top: 14pt;
+  }
+
+  .cv-entry {
+    break-inside: avoid;
+    margin-bottom: 9pt;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}

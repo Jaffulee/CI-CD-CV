@@ -1,0 +1,272 @@
+experience:
+  - id: platform-software-engineer-2025
+    type: role
+    title: Software Engineer
+    organisation: Example SaaS Platform Ltd
+    start: 2025-01
+    end: Present
+    display_dates: "January 2025 - Present"
+    tools:
+      - TypeScript
+      - React
+      - Node.js
+      - PostgreSQL
+      - Docker
+      - GitHub Actions
+    domains:
+      - software-engineering
+      - saas
+    themes:
+      - full-stack-development
+      - customer-workflows
+      - automation
+    profiles:
+      - software-engineering
+      - full
+    variants:
+      one_line: >
+        Builds customer-facing workflow features and internal automation for a B2B SaaS product.
+      short: |
+        Builds customer-facing workflow features and internal automation for a B2B SaaS product, bringing strong commercial context from an earlier sales career.
+      full: |
+        Builds customer-facing workflow features and internal automation for a B2B SaaS product. Work includes React interfaces, TypeScript services, PostgreSQL schema changes, API integrations, automated tests, and CI improvements. Uses prior sales experience to clarify user needs, spot adoption risks, and translate customer feedback into practical engineering tasks.
+      sales: |
+        Applies sales and customer discovery experience inside a product engineering team, helping convert customer feedback into scoped software changes and clearer release communication.
+      software_engineering: |
+        Develops full-stack product features with TypeScript, React, Node.js, and PostgreSQL. Work includes API design, database changes, test coverage, CI updates, and production support for customer-facing workflows.
+      management: |
+        Coordinates with product, customer success, and engineering colleagues to turn commercial requirements into deliverable software increments with clear ownership and release notes.
+    bullets:
+      full:
+        - text: Built full-stack features across React, TypeScript services, PostgreSQL, and REST APIs
+          priority: 10
+        - text: Added automated tests and CI checks to reduce regressions in customer workflows
+          priority: 9
+        - text: Translated customer feedback into scoped engineering tickets and release notes
+          priority: 8
+      software:
+        - text: Implemented typed API endpoints, frontend state handling, and database-backed workflows
+          priority: 10
+        - text: Improved test coverage around pricing, onboarding, and account-management journeys
+          priority: 9
+        - text: Used Docker and GitHub Actions to keep local development and CI behaviour consistent
+          priority: 8
+      manager:
+        - text: Aligned product, sales, and customer success stakeholders around delivery priorities
+          priority: 10
+        - text: Helped break ambiguous customer requests into sequenced engineering work
+          priority: 9
+        - text: Communicated release impact in language suitable for commercial and technical teams
+          priority: 8
+
+  - id: software-engineering-transition-2024
+    type: training
+    title: Software Engineering Career Transition
+    organisation: Independent Study and Portfolio Projects
+    start: 2024-01
+    end: 2024-12
+    display_dates: "January 2024 - December 2024"
+    tools:
+      - JavaScript
+      - Python
+      - React
+      - Node.js
+      - PostgreSQL
+      - AWS
+    domains:
+      - software-engineering
+      - career-transition
+    themes:
+      - self-directed-learning
+      - portfolio
+      - practical-projects
+    profiles:
+      - software-engineering
+      - full
+    variants:
+      one_line: >
+        Completed a structured mid-career transition from sales into software engineering through projects, certification, and practical delivery.
+      short: |
+        Completed a structured mid-career transition from sales into software engineering through projects, certification, and practical delivery.
+      full: |
+        Completed a structured mid-career transition from sales into software engineering through full-stack projects, coding practice, cloud fundamentals, and applied portfolio work. Built software around sales forecasting, CRM task automation, onboarding checklists, and customer notes, using familiar commercial problems as practical engineering material.
+      sales: |
+        Used commercial experience as the basis for software projects including sales forecasting, CRM automation, and customer onboarding tooling.
+      software_engineering: |
+        Built portfolio applications using React, Node.js, Python, PostgreSQL, AWS, and automated tests, with emphasis on maintainable code and practical product workflows.
+      management: |
+        Planned the transition as a staged programme with measurable milestones, project retrospectives, and regular peer review.
+    bullets:
+      full:
+        - text: Built portfolio projects around CRM automation, sales forecasting, and onboarding workflows
+          priority: 10
+        - text: Practised full-stack development with React, Node.js, Python, PostgreSQL, and AWS
+          priority: 9
+        - text: Used project retrospectives to improve code quality, scope control, and delivery habits
+          priority: 8
+      software:
+        - text: Created tested REST APIs, responsive React interfaces, and relational database schemas
+          priority: 10
+        - text: Deployed small applications and documented setup, testing, and release steps
+          priority: 9
+      manager:
+        - text: Managed a structured transition roadmap while continuing to deliver commercial responsibilities
+          priority: 10
+        - text: Demonstrated adaptability, prioritisation, and self-directed learning
+          priority: 9
+
+  - id: senior-account-manager-2021
+    type: role
+    title: Senior Account Manager
+    organisation: Example Technology Services Ltd
+    start: 2021-06
+    end: 2024-12
+    display_dates: "June 2021 - December 2024"
+    tools:
+      - Salesforce
+      - Excel
+      - PowerPoint
+      - CRM Automation
+    domains:
+      - sales
+      - technology-services
+    themes:
+      - account-growth
+      - stakeholder-management
+      - forecasting
+    profiles:
+      - sales
+      - management
+      - full
+    variants:
+      one_line: >
+        Managed B2B technology accounts, pipeline forecasting, renewals, and expansion opportunities.
+      short: |
+        Managed B2B technology accounts, pipeline forecasting, renewals, and expansion opportunities while building strong technical product understanding.
+      full: |
+        Managed B2B technology accounts across renewals, expansion opportunities, discovery, proposals, negotiation, and implementation handover. Worked closely with delivery and support teams to clarify requirements, set customer expectations, and reduce avoidable escalations. Built internal CRM automations and reporting templates that later informed the move into software engineering.
+      sales: |
+        Owned B2B account growth, renewals, pipeline management, discovery, proposals, and negotiation for technology service customers.
+      software_engineering: |
+        Partnered with technical teams during implementation handover, translated customer requirements into clear acceptance criteria, and built CRM automations that introduced practical programming concepts.
+      management: |
+        Coordinated sales, delivery, finance, and support stakeholders across account plans, renewals, escalations, and implementation handovers.
+    bullets:
+      full:
+        - text: Managed account plans, renewal cycles, expansion opportunities, and commercial negotiations
+          priority: 10
+        - text: Partnered with delivery teams to clarify requirements and reduce implementation friction
+          priority: 9
+        - text: Built CRM reporting templates and automation ideas that supported better pipeline visibility
+          priority: 8
+      sales:
+        - text: Owned pipeline hygiene, forecasting, discovery, proposals, renewals, and negotiation
+          priority: 10
+        - text: Developed trusted relationships with buyers, users, finance contacts, and delivery stakeholders
+          priority: 9
+        - text: Improved handover quality by documenting requirements, risks, and success criteria
+          priority: 8
+      manager:
+        - text: Coordinated cross-functional stakeholders across commercial, support, and delivery teams
+          priority: 10
+        - text: Mentored junior sales colleagues on discovery, CRM discipline, and renewal planning
+          priority: 9
+
+  - id: sales-team-lead-2019
+    type: role
+    title: Sales Team Lead
+    organisation: Example Retail Group
+    start: 2019-03
+    end: 2021-05
+    display_dates: "March 2019 - May 2021"
+    tools:
+      - CRM
+      - Excel
+      - POS Reporting
+    domains:
+      - sales
+      - retail
+    themes:
+      - team-leadership
+      - coaching
+      - reporting
+    profiles:
+      - sales
+      - management
+      - full
+    variants:
+      one_line: >
+        Led a small sales team, coached colleagues, monitored daily performance, and improved local reporting.
+      short: |
+        Led a small sales team, coached colleagues, monitored daily performance, and improved local reporting.
+      full: |
+        Led a small sales team responsible for customer conversations, targets, daily reporting, stock awareness, and service standards. Coached colleagues on consultative questioning, objection handling, and product matching. Built spreadsheet trackers that made performance patterns easier to review.
+      sales: |
+        Led frontline sales activity, coached colleagues on customer conversations, and improved daily target tracking.
+      software_engineering: |
+        Built spreadsheet-based reporting tools and process improvements that developed early interest in automation and data-led decision making.
+      management: |
+        Managed rotas, coached team members, reviewed performance, and supported consistent customer service standards.
+    bullets:
+      full:
+        - text: Led a small sales team across daily targets, coaching, service standards, and reporting
+          priority: 10
+        - text: Improved spreadsheet trackers for performance review and stock-aware sales planning
+          priority: 9
+        - text: Coached colleagues on consultative questioning, objection handling, and product matching
+          priority: 8
+      sales:
+        - text: Coached colleagues on consultative sales conversations and objection handling
+          priority: 10
+        - text: Used local reporting to identify product, service, and conversion opportunities
+          priority: 9
+      manager:
+        - text: Managed rotas, daily priorities, colleague coaching, and service standards
+          priority: 10
+        - text: Created clearer performance visibility for colleagues and supervisors
+          priority: 9
+
+  - id: sales-associate-2016
+    type: role
+    title: Sales Associate
+    organisation: Example Retail Group
+    start: 2016-08
+    end: 2019-02
+    display_dates: "August 2016 - February 2019"
+    tools:
+      - POS
+      - CRM
+    domains:
+      - sales
+      - retail
+    themes:
+      - customer-service
+      - product-knowledge
+      - target-delivery
+    profiles:
+      - sales
+      - full
+    variants:
+      one_line: >
+        Built early sales experience through customer service, product advice, and target delivery.
+      short: |
+        Built early sales experience through customer service, product advice, and target delivery.
+      full: |
+        Built early sales experience through customer service, product advice, target delivery, complaint handling, and careful follow-up. Developed the communication habits that later supported account management and software requirement discovery.
+      sales: |
+        Delivered customer service, product advice, target delivery, complaint handling, and follow-up in a frontline sales environment.
+      software_engineering: |
+        Developed customer empathy and requirements-listening habits that later transferred into software engineering and product work.
+      management: |
+        Supported colleagues during busy trading periods and helped maintain service consistency.
+    bullets:
+      full:
+        - text: Delivered customer service, product advice, target delivery, and follow-up
+          priority: 10
+        - text: Developed customer empathy and structured listening habits useful in later technology roles
+          priority: 9
+      sales:
+        - text: Built strong foundations in customer conversations, product matching, and target delivery
+          priority: 10
+        - text: Handled customer objections and complaints with calm, practical communication
+          priority: 9

@@ -1,0 +1,100 @@
+id: cv-manager
+output_name: cv_manager
+title: MANAGER CV
+
+details:
+  contact_variant: short
+  headline_variant: manager
+
+rendering:
+  markdown:
+    template_file: styles/markdown/cv.md.j2
+  latex:
+    preamble_file: styles/latex/preamble_default.tex
+    template_file: styles/latex/cv.tex.j2
+  html:
+    template_file: styles/html/cv.html.j2
+    stylesheets:
+      - styles/html/cv.css
+      - styles/html/print.css
+
+sections:
+  - name: Management Experience
+    source: experience
+    entries:
+      - id: platform-software-engineer-2025
+        mode: bullets
+        bullet_set: manager
+        max_bullets: 3
+        show_tools: true
+      - id: senior-account-manager-2021
+        mode: bullets
+        bullet_set: manager
+        max_bullets: 2
+        show_tools: true
+      - id: sales-team-lead-2019
+        mode: bullets
+        bullet_set: manager
+        max_bullets: 2
+        show_tools: true
+      - id: software-engineering-transition-2024
+        mode: bullets
+        bullet_set: manager
+        max_bullets: 2
+        show_tools: false
+      - id: sales-associate-2016
+        mode: variant
+        variant: management
+        show_tools: false
+
+  - name: Delivery and Product Projects
+    source: projects
+    entries:
+      - id: sales-forecasting-app
+        mode: variant
+        variant: management
+        show_tools: true
+      - id: crm-task-automation
+        mode: variant
+        variant: management
+        show_tools: true
+
+  - name: Certifications, Education, and Talks
+    source: mixed
+    entries:
+      - source: certifications
+        id: professional-scrum-master-2025
+        mode: variant
+        variant: short
+      - source: certifications
+        id: consultative-selling-2021
+        mode: variant
+        variant: short
+      - source: education
+        id: leadership-development-2022
+        mode: variant
+        variant: short
+      - source: education
+        id: business-management-degree-2015
+        mode: variant
+        variant: short
+      - source: talks
+        id: career-change-lightning-talk-2025
+        mode: variant
+        variant: short
+
+  - name: Links
+    source: links
+    entries:
+      - id: linkedin
+        mode: link
+        show_description: false
+        display_text: https://www.linkedin.com/in/your-name-example/
+      - id: website-portfolio
+        mode: link
+        show_description: true
+        display_text: https://your-name-example.github.io/
+      - id: technical-blog
+        mode: link
+        show_description: true
+        display_text: https://your-name-example.github.io/blog/
